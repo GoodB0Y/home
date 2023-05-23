@@ -1,5 +1,5 @@
 /**
- * Тестовая функция
+ * Тестовая функция 1
  * @param a
  * @param b
  */
@@ -14,6 +14,8 @@ const someFunc = (a, b) => {
  * @param c
  */
 const addNumber = (a, b, c) => {
-    console.log('addNumber start')
+ if (c > 0) {
+     console.log('addNumber start')
+ }
     return  a + b + c;
 };
