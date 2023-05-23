@@ -14,5 +14,6 @@ const someFunc = (a, b) => {
  * @param c
  */
 const addNumber = (a, b, c) => {
+    console.log('addNumber start')
     return  a + b + c;
 };
