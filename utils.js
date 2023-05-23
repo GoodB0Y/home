@@ -4,7 +4,7 @@
  * @param b
  */
 const someFunc = (a, b) => {
-    console.log('something' + a + b);
+    console.log(a + b === 42);
 };
 
 /**
